@@ -27,12 +27,6 @@ class DetalhesFilme : AppCompatActivity() {
         recyclerFilmesSeries.adapter = FilmesAdapter(addFilmes());
         recyclerFilmesSeries.layoutManager = GridLayoutManager(applicationContext, 3);
 
-//        recyclerFilmesSeries.addOnItemClickListener(object: OnItemClickListener{
-//            override fun onItemClicked(position: Int, view: View) {
-//
-//            }
-//
-//        })
     }
 
     private fun Toolbar() {
